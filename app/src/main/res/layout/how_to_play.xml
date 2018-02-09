@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:text="Basic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="This game is designed to be played by two players on the same device. There are two players :  RED and BLUE, the first player to make a move is selected random. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:text="Purpose of this game"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="On his turn every player can select any number of white dots from a single line. The player that has to press the last white dot left from board is the loser, the other wins the game."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:text="General turn example :"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="BLUE player is the first one. So while RED player waits, the RED player press any number of white dots from a single line. After he do this, BLUE hit's the button to switch turn with RED player. Now BLUE waits, and RED select some white dots on a single lines (from the left ones). The player who hits the last but one dot is the winner. The other player that has left with the last dot to press is considered the loser"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:text="Full game example:"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="1 - RED PLAYER IS FIRST"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_1_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="2 - BLUE PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_2_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="3 - RED PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_3_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="4 - BLUE PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_4_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="5 - RED PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_5_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="6 - BLUE PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_6_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="7 - RED PLAYER TURN, RED pressed the marked white dot, so he is the winner"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_7_jpg"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="@color/colorLight2"
+            android:textSize="12sp"
+            android:layout_marginLeft="10sp"
+            android:text="8 - BLUE PLAYER TURN"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:src="@drawable/screen_8_jpg"
+            android:adjustViewBounds="true"/>
+
+    </LinearLayout>
+
+</ScrollView>

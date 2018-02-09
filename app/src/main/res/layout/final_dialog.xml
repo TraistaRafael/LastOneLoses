@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/dialog_panel"
+        android:layout_centerInParent="true"
+        android:id="@+id/background"/>
+
+    <ImageView
+        android:layout_width="80sp"
+        android:layout_height="80sp"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/bottom_player_dot"
+        android:id="@+id/center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/background"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:rotation="180"
+        android:text="BLUE WINS !"
+        android:id="@+id/text1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:layout_marginBottom="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/background"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="BLUE WINS !"
+        android:id="@+id/text2"/>
+
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/background"
+            android:layout_marginLeft="40sp"
+            android:src="@drawable/ic_replay"
+            android:id="@+id/repeat"/>
+
+        <ImageView
+            android:layout_width="60sp"
+            android:layout_height="60sp"
+            android:layout_centerVertical="true"
+            android:layout_alignRight="@+id/background"
+            android:layout_marginRight="40sp"
+            android:src="@drawable/ic_exit"
+            android:id="@+id/exit"/>
+
+
+</RelativeLayout>
